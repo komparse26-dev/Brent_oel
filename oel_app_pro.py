@@ -6,7 +6,7 @@ from streamlit_autorefresh import st_autorefresh
 
 # --- EINSTELLUNGEN ---
 # Ersetze 'DEIN_API_KEY' mit dem Key von twelvedata.com
-API_KEY = 'DEIN_API_KEY_HIER_EINFÜGEN' 
+API_KEY = '6c608766b8554cec9.2e0b9aff8da9a6b' 
 SYMBOL = "BRENT" # Symbol für Brent Öl bei Twelve Data
 INTERVALL = "15min" # Zeitinterval (1min, 5min, 15min, 4h, etc.)
 
