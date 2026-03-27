@@ -1,1 +1,1 @@
-pip install streamlit yfinance pandas pandas_ta streamlit-autorefresh
+pip install streamlit twelvedata pandas pandas_ta streamlit-autorefresh
