@@ -1,5 +1,5 @@
 streamlit
-yfinance
+twelvedata
 pandas
 pandas_ta
 streamlit-autorefresh
