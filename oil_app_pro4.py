@@ -112,7 +112,7 @@ try:
         st.markdown(f"""
             <div class="trade-card" style="background-color: {bg}; border: 1px solid {color};">
                 <p style="color: {color}; font-size: 1.2rem; font-weight: bold; margin: 0;">{icon} EMPFEHLUNG</p>
-                <h1 style="color: {color}; font-size: 3.5rem; margin: 0;">{res}</h1>
+                <h1 style="color: {color}; font-size: 3.1rem; margin: 0;">{res}</h1>
             </div>
         """, unsafe_allow_html=True)
 
