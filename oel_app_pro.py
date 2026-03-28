@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pandas_ta as ta
+import requests
 from twelvedata import TDClient
 from streamlit_autorefresh import st_autorefresh
 
