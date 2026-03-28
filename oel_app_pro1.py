@@ -8,7 +8,7 @@ from streamlit_autorefresh import st_autorefresh
 # --- EINSTELLUNGEN ---
 # Ersetze 'DEIN_API_KEY' mit dem Key von twelvedata.com
 API_KEY = 'bbb926187ce54b8ca2a46d931e9e6b91' 
-SYMBOL = 'BRENT'
+SYMBOL = 'BZ'
 INTERVALL = '1min'
 
 st.set_page_config(page_title="Brent Profi-Monitor", page_icon="🛢️")
@@ -23,7 +23,7 @@ def get_professional_data():
         symbol=SYMBOL,
         interval=INTERVALL,
         outputsize=50,
-        exchange="ICE" # Brent wird primär an der ICE gehandelt
+        # exchange="ICE" # Brent wird primär an der ICE gehandelt
     )
     df = ts.as_pandas()
     
