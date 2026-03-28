@@ -7,7 +7,7 @@ from streamlit_autorefresh import st_autorefresh
 
 # --- EINSTELLUNGEN ---
 # Ersetze 'DEIN_API_KEY' mit dem Key von twelvedata.com
-API_KEY = '6c608766b8554cec92e0b9aff8da9a6b' 
+API_KEY = 'bbb926187ce54b8ca2a46d931e9e6b91' 
 SYMBOL = 'BRENT'
 INTERVALL = '1min'
 
