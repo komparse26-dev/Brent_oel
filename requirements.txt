@@ -1,5 +1,6 @@
-streamlit
-twelvedata
+yfinance
 pandas
 pandas_ta
+streamlit
 streamlit-autorefresh
+requests
