@@ -8,7 +8,7 @@ from streamlit_autorefresh import st_autorefresh
 # Ersetze 'DEIN_API_KEY' mit dem Key von twelvedata.com
 API_KEY = '6c608766b8554cec92e0b9aff8da9a6b' 
 SYMBOL = 'BRENT'
-INTERVALL = '1min" # Zeitinterval (1min, 5min, 15min, 4h, etc.)
+INTERVALL = '1min'
 
 st.set_page_config(page_title="Brent Profi-Monitor", page_icon="🛢️")
 
