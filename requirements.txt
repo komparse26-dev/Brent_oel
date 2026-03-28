@@ -3,4 +3,3 @@ pandas
 pandas_ta
 streamlit
 streamlit-autorefresh
-requests
